@@ -1,0 +1,84 @@
+\hypertarget{vehicule-classic_8c}{}\doxysection{vehicule-\/classic.c File Reference}
+\label{vehicule-classic_8c}\index{vehicule-\/classic.c@{vehicule-\/classic.c}}
+
+
+Ce fichier permet la gestion des véhicules classics(insertion, affichage, modification, sortie)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$mysql/mysql.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}vehicule-\/classic.\+h\char`\"{}}\newline
+Include dependency graph for vehicule-\/classic.c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{vehicule-classic_8c_abc91720e1fdcf11d9cb8e38311c1a038}{insertion\+\_\+vehicule}} ()
+\item 
+void \mbox{\hyperlink{vehicule-classic_8c_ace6d08f4f24f7b98c1e2d76d1571b980}{affiche\+\_\+vehicule}} ()
+\item 
+void \mbox{\hyperlink{vehicule-classic_8c_a5b32f7109822bb0ce0bcb4fb9c166af7}{rechercher\+\_\+vehicule}} ()
+\item 
+void \mbox{\hyperlink{vehicule-classic_8c_a36246fe65c16afed6e1c73d7ec5ea13b}{sortie\+\_\+engin\+\_\+vehicule}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{vehicule-classic_8c_afde985e63a09c7d18726279e415cc8e2}\label{vehicule-classic_8c_afde985e63a09c7d18726279e415cc8e2}} 
+MYSQL $\ast$ {\bfseries conn}
+\item 
+\mbox{\Hypertarget{vehicule-classic_8c_a4b9aff964cf7b4d0491357aaab5edc31}\label{vehicule-classic_8c_a4b9aff964cf7b4d0491357aaab5edc31}} 
+MYSQL\+\_\+\+RES $\ast$ {\bfseries res}
+\item 
+\mbox{\Hypertarget{vehicule-classic_8c_a34269e7c6df16f7d1b6034b9fce28463}\label{vehicule-classic_8c_a34269e7c6df16f7d1b6034b9fce28463}} 
+MYSQL\+\_\+\+ROW {\bfseries row}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ce fichier permet la gestion des véhicules classics(insertion, affichage, modification, sortie) 
+
+\begin{DoxyAuthor}{Author}
+GNAMIAN Aime 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+20.\+03 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20 Avril 2021 Appel du fichier \mbox{\hyperlink{vehicule-classic_8c}{vehicule-\/classic.\+c}} 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{vehicule-classic_8c_ace6d08f4f24f7b98c1e2d76d1571b980}\label{vehicule-classic_8c_ace6d08f4f24f7b98c1e2d76d1571b980}} 
+\index{vehicule-\/classic.c@{vehicule-\/classic.c}!affiche\_vehicule@{affiche\_vehicule}}
+\index{affiche\_vehicule@{affiche\_vehicule}!vehicule-\/classic.c@{vehicule-\/classic.c}}
+\doxysubsubsection{\texorpdfstring{affiche\_vehicule()}{affiche\_vehicule()}}
+{\footnotesize\ttfamily void affiche\+\_\+vehicule (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+AFFICHE LES VEHICULE \mbox{\Hypertarget{vehicule-classic_8c_abc91720e1fdcf11d9cb8e38311c1a038}\label{vehicule-classic_8c_abc91720e1fdcf11d9cb8e38311c1a038}} 
+\index{vehicule-\/classic.c@{vehicule-\/classic.c}!insertion\_vehicule@{insertion\_vehicule}}
+\index{insertion\_vehicule@{insertion\_vehicule}!vehicule-\/classic.c@{vehicule-\/classic.c}}
+\doxysubsubsection{\texorpdfstring{insertion\_vehicule()}{insertion\_vehicule()}}
+{\footnotesize\ttfamily void insertion\+\_\+vehicule (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+INSERTION VEHICULE Afficher la date courante\mbox{\Hypertarget{vehicule-classic_8c_a5b32f7109822bb0ce0bcb4fb9c166af7}\label{vehicule-classic_8c_a5b32f7109822bb0ce0bcb4fb9c166af7}} 
+\index{vehicule-\/classic.c@{vehicule-\/classic.c}!rechercher\_vehicule@{rechercher\_vehicule}}
+\index{rechercher\_vehicule@{rechercher\_vehicule}!vehicule-\/classic.c@{vehicule-\/classic.c}}
+\doxysubsubsection{\texorpdfstring{rechercher\_vehicule()}{rechercher\_vehicule()}}
+{\footnotesize\ttfamily void rechercher\+\_\+vehicule (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+RECHERCHER UN VEHICULE CLASSIQUE \mbox{\Hypertarget{vehicule-classic_8c_a36246fe65c16afed6e1c73d7ec5ea13b}\label{vehicule-classic_8c_a36246fe65c16afed6e1c73d7ec5ea13b}} 
+\index{vehicule-\/classic.c@{vehicule-\/classic.c}!sortie\_engin\_vehicule@{sortie\_engin\_vehicule}}
+\index{sortie\_engin\_vehicule@{sortie\_engin\_vehicule}!vehicule-\/classic.c@{vehicule-\/classic.c}}
+\doxysubsubsection{\texorpdfstring{sortie\_engin\_vehicule()}{sortie\_engin\_vehicule()}}
+{\footnotesize\ttfamily void sortie\+\_\+engin\+\_\+vehicule (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+SORTI DE ENGIN VEHICULE Renvoie l\textquotesingle{}heure actuelle
+
+Convertir au format heure locale
+
+Afficher la date courante

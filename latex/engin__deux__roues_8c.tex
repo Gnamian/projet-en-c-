@@ -1,0 +1,84 @@
+\hypertarget{engin__deux__roues_8c}{}\doxysection{engin\+\_\+deux\+\_\+roues.\+c File Reference}
+\label{engin__deux__roues_8c}\index{engin\_deux\_roues.c@{engin\_deux\_roues.c}}
+
+
+Ce fichier permet la gestion des engins à deux roues(insertion, affichage, modification, sortie)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$mysql/mysql.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}engin\+\_\+deux\+\_\+roues.\+h\char`\"{}}\newline
+Include dependency graph for engin\+\_\+deux\+\_\+roues.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{engin__deux__roues_8c_a07c7cecb2e6a88a52d79a5e2653229e2}{insertion}} ()
+\item 
+void \mbox{\hyperlink{engin__deux__roues_8c_a828fbf900081a05a6108d7a9b971c1f7}{affiche}} ()
+\item 
+void \mbox{\hyperlink{engin__deux__roues_8c_a2a47ffeb6261de2126f78d1d8008905f}{rechercher}} ()
+\item 
+void \mbox{\hyperlink{engin__deux__roues_8c_a748ab5f1a65a4caf0e1ef91b81428c83}{sortie\+\_\+engin\+\_\+deux\+\_\+roues}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{engin__deux__roues_8c_afde985e63a09c7d18726279e415cc8e2}\label{engin__deux__roues_8c_afde985e63a09c7d18726279e415cc8e2}} 
+MYSQL $\ast$ {\bfseries conn}
+\item 
+\mbox{\Hypertarget{engin__deux__roues_8c_a4b9aff964cf7b4d0491357aaab5edc31}\label{engin__deux__roues_8c_a4b9aff964cf7b4d0491357aaab5edc31}} 
+MYSQL\+\_\+\+RES $\ast$ {\bfseries res}
+\item 
+\mbox{\Hypertarget{engin__deux__roues_8c_a34269e7c6df16f7d1b6034b9fce28463}\label{engin__deux__roues_8c_a34269e7c6df16f7d1b6034b9fce28463}} 
+MYSQL\+\_\+\+ROW {\bfseries row}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ce fichier permet la gestion des engins à deux roues(insertion, affichage, modification, sortie) 
+
+\begin{DoxyAuthor}{Author}
+GNAMIAN AIME 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+20.\+03 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20 Avril 2021 Appel du fichier \mbox{\hyperlink{engin__deux__roues_8c}{engin\+\_\+deux\+\_\+roues.\+c}} 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{engin__deux__roues_8c_a828fbf900081a05a6108d7a9b971c1f7}\label{engin__deux__roues_8c_a828fbf900081a05a6108d7a9b971c1f7}} 
+\index{engin\_deux\_roues.c@{engin\_deux\_roues.c}!affiche@{affiche}}
+\index{affiche@{affiche}!engin\_deux\_roues.c@{engin\_deux\_roues.c}}
+\doxysubsubsection{\texorpdfstring{affiche()}{affiche()}}
+{\footnotesize\ttfamily void affiche (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+AFFICHE LES ENGINS A DEUX ROUES \mbox{\Hypertarget{engin__deux__roues_8c_a07c7cecb2e6a88a52d79a5e2653229e2}\label{engin__deux__roues_8c_a07c7cecb2e6a88a52d79a5e2653229e2}} 
+\index{engin\_deux\_roues.c@{engin\_deux\_roues.c}!insertion@{insertion}}
+\index{insertion@{insertion}!engin\_deux\_roues.c@{engin\_deux\_roues.c}}
+\doxysubsubsection{\texorpdfstring{insertion()}{insertion()}}
+{\footnotesize\ttfamily void insertion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+INSERTION ENGIN A DEUX ROUES Afficher la date courante\mbox{\Hypertarget{engin__deux__roues_8c_a2a47ffeb6261de2126f78d1d8008905f}\label{engin__deux__roues_8c_a2a47ffeb6261de2126f78d1d8008905f}} 
+\index{engin\_deux\_roues.c@{engin\_deux\_roues.c}!rechercher@{rechercher}}
+\index{rechercher@{rechercher}!engin\_deux\_roues.c@{engin\_deux\_roues.c}}
+\doxysubsubsection{\texorpdfstring{rechercher()}{rechercher()}}
+{\footnotesize\ttfamily void rechercher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+RECHERCHER UN ENGIN A DEUX ROUES \mbox{\Hypertarget{engin__deux__roues_8c_a748ab5f1a65a4caf0e1ef91b81428c83}\label{engin__deux__roues_8c_a748ab5f1a65a4caf0e1ef91b81428c83}} 
+\index{engin\_deux\_roues.c@{engin\_deux\_roues.c}!sortie\_engin\_deux\_roues@{sortie\_engin\_deux\_roues}}
+\index{sortie\_engin\_deux\_roues@{sortie\_engin\_deux\_roues}!engin\_deux\_roues.c@{engin\_deux\_roues.c}}
+\doxysubsubsection{\texorpdfstring{sortie\_engin\_deux\_roues()}{sortie\_engin\_deux\_roues()}}
+{\footnotesize\ttfamily void sortie\+\_\+engin\+\_\+deux\+\_\+roues (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+SORTIE DE ENGIN A DEUX ROUES Renvoie l\textquotesingle{}heure actuelle
+
+Convertir au format heure locale
+
+Afficher la date courante

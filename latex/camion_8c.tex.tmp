@@ -1,0 +1,84 @@
+\hypertarget{camion_8c}{}\doxysection{camion.\+c File Reference}
+\label{camion_8c}\index{camion.c@{camion.c}}
+
+
+Ce fichier permet la gestion des camions(insertion, affichage, modification, sortie)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$mysql/mysql.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}camion.\+h\char`\"{}}\newline
+Include dependency graph for camion.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{camion_8c_adda5ea71a4aaebb0369aa71f80c87d65}{insertion\+\_\+camion}} ()
+\item 
+void \mbox{\hyperlink{camion_8c_a403fc64158c0d2413b46d7412c87b632}{affiche\+\_\+camion}} ()
+\item 
+void \mbox{\hyperlink{camion_8c_af1f43a179e2d8b913e88f2de274dea6d}{rechercher\+\_\+camion}} ()
+\item 
+void \mbox{\hyperlink{camion_8c_ab3f6f1d2a8f05f24933b8d32be090ea8}{sortie\+\_\+engin\+\_\+camion}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{camion_8c_afde985e63a09c7d18726279e415cc8e2}\label{camion_8c_afde985e63a09c7d18726279e415cc8e2}} 
+MYSQL $\ast$ {\bfseries conn}
+\item 
+\mbox{\Hypertarget{camion_8c_a4b9aff964cf7b4d0491357aaab5edc31}\label{camion_8c_a4b9aff964cf7b4d0491357aaab5edc31}} 
+MYSQL\+\_\+\+RES $\ast$ {\bfseries res}
+\item 
+\mbox{\Hypertarget{camion_8c_a34269e7c6df16f7d1b6034b9fce28463}\label{camion_8c_a34269e7c6df16f7d1b6034b9fce28463}} 
+MYSQL\+\_\+\+ROW {\bfseries row}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ce fichier permet la gestion des camions(insertion, affichage, modification, sortie) 
+
+\begin{DoxyAuthor}{Author}
+GNAMIAN AIME 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+20.\+03 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20 Avril 2021 Appel du fichier \mbox{\hyperlink{camion_8c}{camion.\+c}} 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{camion_8c_a403fc64158c0d2413b46d7412c87b632}\label{camion_8c_a403fc64158c0d2413b46d7412c87b632}} 
+\index{camion.c@{camion.c}!affiche\_camion@{affiche\_camion}}
+\index{affiche\_camion@{affiche\_camion}!camion.c@{camion.c}}
+\doxysubsubsection{\texorpdfstring{affiche\_camion()}{affiche\_camion()}}
+{\footnotesize\ttfamily void affiche\+\_\+camion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+AFFICHE LES CAMIONS \mbox{\Hypertarget{camion_8c_adda5ea71a4aaebb0369aa71f80c87d65}\label{camion_8c_adda5ea71a4aaebb0369aa71f80c87d65}} 
+\index{camion.c@{camion.c}!insertion\_camion@{insertion\_camion}}
+\index{insertion\_camion@{insertion\_camion}!camion.c@{camion.c}}
+\doxysubsubsection{\texorpdfstring{insertion\_camion()}{insertion\_camion()}}
+{\footnotesize\ttfamily void insertion\+\_\+camion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+INSERTION ENGIN CAMION Afficher la date courante\mbox{\Hypertarget{camion_8c_af1f43a179e2d8b913e88f2de274dea6d}\label{camion_8c_af1f43a179e2d8b913e88f2de274dea6d}} 
+\index{camion.c@{camion.c}!rechercher\_camion@{rechercher\_camion}}
+\index{rechercher\_camion@{rechercher\_camion}!camion.c@{camion.c}}
+\doxysubsubsection{\texorpdfstring{rechercher\_camion()}{rechercher\_camion()}}
+{\footnotesize\ttfamily void rechercher\+\_\+camion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+RECHERCHER UN CAMIONS \mbox{\Hypertarget{camion_8c_ab3f6f1d2a8f05f24933b8d32be090ea8}\label{camion_8c_ab3f6f1d2a8f05f24933b8d32be090ea8}} 
+\index{camion.c@{camion.c}!sortie\_engin\_camion@{sortie\_engin\_camion}}
+\index{sortie\_engin\_camion@{sortie\_engin\_camion}!camion.c@{camion.c}}
+\doxysubsubsection{\texorpdfstring{sortie\_engin\_camion()}{sortie\_engin\_camion()}}
+{\footnotesize\ttfamily void sortie\+\_\+engin\+\_\+camion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+SORTIE DE CAMION Renvoi l\textquotesingle{}heure actuelle
+
+Convertir au format heure locale
+
+Afficher la date courante

@@ -1,0 +1,68 @@
+\hypertarget{parking_8c}{}\doxysection{parking.\+c File Reference}
+\label{parking_8c}\index{parking.c@{parking.c}}
+
+
+Ce fichier permet la gestion des camions(insertion, affichage, modification, sortie)  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$mysql/mysql.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}engin\+\_\+deux\+\_\+roues.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}camion.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vehicule-\/classic.\+h\char`\"{}}\newline
+Include dependency graph for parking.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{parking_8c_a3d9a29a806c93d1cb7646582ad83990f}{affiche\+\_\+nbr\+\_\+engin}} ()
+\item 
+int \mbox{\hyperlink{parking_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{parking_8c_afde985e63a09c7d18726279e415cc8e2}\label{parking_8c_afde985e63a09c7d18726279e415cc8e2}} 
+MYSQL $\ast$ {\bfseries conn}
+\item 
+\mbox{\Hypertarget{parking_8c_a4b9aff964cf7b4d0491357aaab5edc31}\label{parking_8c_a4b9aff964cf7b4d0491357aaab5edc31}} 
+MYSQL\+\_\+\+RES $\ast$ {\bfseries res}
+\item 
+\mbox{\Hypertarget{parking_8c_a34269e7c6df16f7d1b6034b9fce28463}\label{parking_8c_a34269e7c6df16f7d1b6034b9fce28463}} 
+MYSQL\+\_\+\+ROW {\bfseries row}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ce fichier permet la gestion des camions(insertion, affichage, modification, sortie) 
+
+\begin{DoxyAuthor}{Author}
+GNAMIAN Aime 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+20.\+03 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20 Avril 2021 Appel du fichier \mbox{\hyperlink{parking_8c}{parking.\+c}} 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{parking_8c_a3d9a29a806c93d1cb7646582ad83990f}\label{parking_8c_a3d9a29a806c93d1cb7646582ad83990f}} 
+\index{parking.c@{parking.c}!affiche\_nbr\_engin@{affiche\_nbr\_engin}}
+\index{affiche\_nbr\_engin@{affiche\_nbr\_engin}!parking.c@{parking.c}}
+\doxysubsubsection{\texorpdfstring{affiche\_nbr\_engin()}{affiche\_nbr\_engin()}}
+{\footnotesize\ttfamily void affiche\+\_\+nbr\+\_\+engin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+AFFICHE NOMBRE DE PLACE DES DIFFERENTS ENGINS \mbox{\Hypertarget{parking_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{parking_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{parking.c@{parking.c}!main@{main}}
+\index{main@{main}!parking.c@{parking.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+ajouter l\textquotesingle{}élément et trier la liste
+
+LA FONCTION getchar PERMET DE RENVOYER VALEUR SAISIR
